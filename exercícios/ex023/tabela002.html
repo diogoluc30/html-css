@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgba(128, 128, 128, 0.359);
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        AaNATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 557 071</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>64 506 274</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam quas illum odio expedita ut consequuntur reprehenderit tempore sunt laboriosam. Ratione dolor in minus necessitatibus saepe nam repellat fugiat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit, iste odio ipsa impedit eius molestias. Iure accusantium tempore eos natus numquam veritatis fugiat molestias repellendus quaerat vitae. Accusantium, molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim laborum repellat? Nulla veritatis, ducimus ea expedita id aliquid error accusamus rem reprehenderit. Quae natus iste a! Minima, fugiat sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio dolorum vitae praesentium consectetur atque iure eaque voluptatem totam molestias vel repellat est voluptas, nihil adipisci doloribus possimus impedit voluptatum.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam quas illum odio expedita ut consequuntur reprehenderit tempore sunt laboriosam. Ratione dolor in minus necessitatibus saepe nam repellat fugiat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit, iste odio ipsa impedit eius molestias. Iure accusantium tempore eos natus numquam veritatis fugiat molestias repellendus quaerat vitae. Accusantium, molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim laborum repellat? Nulla veritatis, ducimus ea expedita id aliquid error accusamus rem reprehenderit. Quae natus iste a! Minima, fugiat sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio dolorum vitae praesentium consectetur atque iure eaque voluptatem totam molestias vel repellat est voluptas, nihil adipisci doloribus possimus impedit voluptatum.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam quas illum odio expedita ut consequuntur reprehenderit tempore sunt laboriosam. Ratione dolor in minus necessitatibus saepe nam repellat fugiat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit, iste odio ipsa impedit eius molestias. Iure accusantium tempore eos natus numquam veritatis fugiat molestias repellendus quaerat vitae. Accusantium, molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim laborum repellat? Nulla veritatis, ducimus ea expedita id aliquid error accusamus rem reprehenderit. Quae natus iste a! Minima, fugiat sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio dolorum vitae praesentium consectetur atque iure eaque voluptatem totam molestias vel repellat est voluptas, nihil adipisci doloribus possimus impedit voluptatum.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam quas illum odio expedita ut consequuntur reprehenderit tempore sunt laboriosam. Ratione dolor in minus necessitatibus saepe nam repellat fugiat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit, iste odio ipsa impedit eius molestias. Iure accusantium tempore eos natus numquam veritatis fugiat molestias repellendus quaerat vitae. Accusantium, molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim laborum repellat? Nulla veritatis, ducimus ea expedita id aliquid error accusamus rem reprehenderit. Quae natus iste a! Minima, fugiat sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio dolorum vitae praesentium consectetur atque iure eaque voluptatem totam molestias vel repellat est voluptas, nihil adipisci doloribus possimus impedit voluptatum.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam quas illum odio expedita ut consequuntur reprehenderit tempore sunt laboriosam. Ratione dolor in minus necessitatibus saepe nam repellat fugiat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit, iste odio ipsa impedit eius molestias. Iure accusantium tempore eos natus numquam veritatis fugiat molestias repellendus quaerat vitae. Accusantium, molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim laborum repellat? Nulla veritatis, ducimus ea expedita id aliquid error accusamus rem reprehenderit. Quae natus iste a! Minima, fugiat sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio dolorum vitae praesentium consectetur atque iure eaque voluptatem totam molestias vel repellat est voluptas, nihil adipisci doloribus possimus impedit voluptatum.</p>
+</body>
+</html>
