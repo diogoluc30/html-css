@@ -9,11 +9,11 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
 }
 
 header {
-    background-color: rgb(148, 148, 148);
+    background-color: rgba(147, 147, 147, 0.926);
 }
 
 header > h1 {
@@ -31,8 +31,8 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
-    color: black;
+    background-color: rgba(63, 63, 63, 0.868);
+    color: white;
 }
 
 menu {
@@ -47,7 +47,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(87, 87, 87);
+    background-color: rgba(63, 63, 63, 0.868);
     color: white;
     border-top: 2px solid gray;
 }
